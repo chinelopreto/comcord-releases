@@ -9,7 +9,7 @@ O OmnisPlay é um aplicativo para conversar por voz com amigos, compartilhar a t
 ## Resumo
 
 - O OmnisPlay **não tem contas, cadastro nem servidor central**. O responsável pelo aplicativo **não recebe nem guarda** as suas conversas, transmissões, mensagens, arquivos ou imagens.
-- Cada instalação funciona como o servidor da própria pessoa. A comunicação acontece **diretamente entre os computadores** de quem está na conversa.
+- Cada instalação funciona como o servidor da própria pessoa. A comunicação acontece **diretamente entre os computadores** de quem está na conversa; quando a rede de alguém não permite essa ligação direta, ela passa, cifrada, por um servidor de retransmissão (ver "Serviços de terceiros").
 - O aplicativo **não tem anúncios, não vende dados e não faz rastreamento**.
 
 ## O que fica guardado, e onde
@@ -32,7 +32,8 @@ O controle do teclado e do mouse só funciona com a autorização de quem compar
 
 Para que os computadores se encontrem e se conectem pela internet, e para algumas funções que você escolhe usar, o aplicativo se comunica com serviços de terceiros, que podem ter acesso ao seu endereço IP:
 
-- serviços públicos de mensagens e rastreadores, por onde passa, de forma cifrada, somente a combinação inicial da conexão;
+- serviços públicos de mensagens e rastreadores, por onde passam, de forma cifrada, somente a combinação inicial da conexão e um sinal periódico de que o aplicativo está aberto, usado para mostrar aos seus amigos que você está online;
+- o serviço de retransmissão (TURN) da Cloudflare, usado somente quando dois computadores não conseguem se ligar diretamente: nesse caso a voz, o vídeo, as mensagens e os arquivos passam por ele cifrados, sem que ele consiga ver o conteúdo, e sem ficarem guardados;
 - servidores públicos que informam ao aplicativo o endereço de internet do próprio computador;
 - o GitHub ou a Microsoft Store, de onde o aplicativo recebe atualizações;
 - o LiveKit, somente quando o dono do servidor o configura;
