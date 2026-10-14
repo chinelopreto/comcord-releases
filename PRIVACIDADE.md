@@ -38,6 +38,7 @@ Para que os computadores se encontrem e se conectem pela internet, e para alguma
 - o GitHub ou a Microsoft Store, de onde o aplicativo recebe atualizações;
 - o LiveKit, somente quando o dono do servidor o configura;
 - o site wallhaven.cc, somente quando você usa a busca de imagens (papel de parede ou imagem de perfil): ele recebe o texto procurado;
+- o site livewallpapers4free.com, somente quando você usa a busca de fundos animados (não disponível na versão da Microsoft Store): ele recebe o texto procurado;
 - a plataforma de transmissão ao vivo que você escolher (como Twitch, YouTube, Kick ou TikTok), somente enquanto você transmite;
 - o serviço DecAPI e a Kick, somente para mostrar o número de espectadores do canal que você informar.
 
