@@ -39,6 +39,7 @@ Para que os computadores se encontrem e se conectem pela internet, e para alguma
 - o LiveKit, somente quando o dono do servidor o configura;
 - o site wallhaven.cc, somente quando você usa a busca de imagens (papel de parede ou imagem de perfil): ele recebe o texto procurado;
 - o site livewallpapers4free.com, somente quando você usa a busca de fundos animados (ele recebe o texto procurado) ou quando entra num servidor ou numa sala cujo dono escolheu um fundo animado desse site (o aplicativo baixa o vídeo de lá); isso não acontece na versão da Microsoft Store;
+- o serviço do próprio OmnisPlay na Cloudflare, somente quando você escreve e envia um relato de problema ou uma sugestão: ele recebe o texto que você escreveu, o contato se você informar, a versão do aplicativo, o sistema, o idioma e, se você deixar marcado, as últimas mensagens de erro técnico do aplicativo. Para limitar abuso, fica guardado por até duas horas um resumo irreversível do endereço de internet de quem enviou. Nada é enviado sem você clicar em enviar;
 - a plataforma de transmissão ao vivo que você escolher (como Twitch, YouTube, Kick ou TikTok), somente enquanto você transmite;
 - o serviço DecAPI e a Kick, somente para mostrar o número de espectadores do canal que você informar.
 
