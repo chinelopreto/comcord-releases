@@ -40,6 +40,8 @@ Para que os computadores se encontrem e se conectem pela internet, e para alguma
 - o site wallhaven.cc, somente quando você usa a busca de imagens (papel de parede ou imagem de perfil): ele recebe o texto procurado;
 - o site livewallpapers4free.com, somente quando você usa a busca de fundos animados (ele recebe o texto procurado) ou quando entra num servidor ou numa sala cujo dono escolheu um fundo animado desse site (o aplicativo baixa o vídeo de lá); isso não acontece na versão da Microsoft Store;
 - o serviço do próprio OmnisPlay na Cloudflare, somente quando você escreve e envia um relato de problema ou uma sugestão: ele recebe o texto que você escreveu, o contato se você informar, a versão do aplicativo, o sistema, o idioma e, se você deixar marcado, as últimas mensagens de erro técnico do aplicativo. Para limitar abuso, fica guardado por até duas horas um resumo irreversível do endereço de internet de quem enviou. Nada é enviado sem você clicar em enviar;
+- a LivePix e a StreamElements, somente se você colar nelas os códigos da sua conta para receber o aviso de doações: o aplicativo lê, com esses códigos, as doações recebidas pela sua conta; os códigos ficam guardados cifrados no seu computador;
+- o chat da Twitch do seu canal, durante a sua transmissão, lido como visitante (sem conta), para avisar quem chegou;
 - a plataforma de transmissão ao vivo que você escolher (como Twitch, YouTube, Kick ou TikTok), somente enquanto você transmite;
 - o serviço DecAPI e a Kick, somente para mostrar o número de espectadores do canal que você informar.
 
